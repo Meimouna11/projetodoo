@@ -29,7 +29,7 @@
         <!-- categories -->
         <div class="container mt-5">
                 <div class="section-title-furits text-center">
-                    <h2>BROWSE OUR CATEGORIES</h2>
+                    <h2>PARCOURIR NOS CATÉGORIES</h2>
                 </div>
                 <br>
             <div class="row mt-5">
@@ -55,7 +55,7 @@
         <div class="services-area wrapper-padding-4 gray-bg pt-120 pb-80">
             <div class="container-fluid">
                 <div class="section-title-furits text-center">
-                    <h2>Why Choose Us</h2>
+                    <h2>Pourquoi nous choisir</h2>
                 </div>
                 <br>
                 <div class="services-wrapper mt-40">
@@ -64,8 +64,8 @@
                             <img src="{{ asset('frontend/assets/img/icon-img/26.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>Free Shippig</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <h4>Shippig gratuit</h4>
+                            <p>Contrairement à la croyance populaire, Lorem Ipsum est un texte aléatoire. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -73,8 +73,8 @@
                             <img src="{{ asset('frontend/assets/img/icon-img/27.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>24/7 Support</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <h4>Assistance 24h/24 et 7j/7</h4>
+                            <p>Contrairement à la croyance populaire, Lorem Ipsum est un texte aléatoire. </p>
                         </div>
                     </div>
                     <div class="single-services mb-40">
@@ -82,8 +82,8 @@
                             <img src="{{ asset('frontend/assets/img/icon-img/28.png') }}" alt="">
                         </div>
                         <div class="services-content">
-                            <h4>Secure Payments</h4>
-                            <p>Contrary to popular belief, Lorem Ipsum is random text. </p>
+                            <h4>Paiements sécurisés</h4>
+                            <p>Contrairement à la croyance populaire, Lorem Ipsum est un texte aléatoire. </p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                                 </div>
                                 <div class="funiture-product-content text-center">
                                     <h4><a href="{{ route('product.show', $product->slug) }}">{{ $product->name }}</a></h4>
-                                    <span>Rp.{{ number_format($product->price) }}</span>
+                                    <span>MRU.{{ number_format($product->price) }}</span>
                                 </div>
                             </div>
                         @endforeach
